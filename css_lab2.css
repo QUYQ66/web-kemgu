@@ -1,53 +1,45 @@
 .gradient {
-    font-size: 2em;
-    background: linear-gradient(135deg, #fcfcfcfa 20%, #c4c4c4 70%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    display: inline-block;
-    padding: 0.3em 0.6em ;
-    /*border: 1px solid transparent;
-    border-image: linear-gradient(135deg, #31027e 20%, #00519c 70%);
-    /*border-image-slice: 1;*/
+  font-size: 2em;
+  background: linear-gradient(135deg, #fcfcfcfa 20%, #eb1c1c 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  padding: 0.3em 0.6em ;
+  text-align: left;
+  /*border: 1px solid transparent;
+  border-image: linear-gradient(135deg, #31027e 20%, #00519c 70%);
+  /*border-image-slice: 1;*/
 }
 div {
-    background: linear-gradient(to bottom, #424242 20%, #181818 70%)
+  background: linear-gradient(to bottom, #424242 20%, #181818 70%);
+  height: 1000px;
+  text-align: center;
 }
 text{
-    font-size: 25px;
-    color:#c4c4c400;
+  font-size: 25px;
+  color:#c4c4c400;
+  align-content: center;
 }
 button{
-    padding:15px;
-    border-radius:20px;
-    font-size: 16pt;
-    border: 2px solid #fff;
-    background-color: transparent;
-    display:block;
-    margin:20px auto;
-    text-transform:uppercase;
-    cursor:pointer;
-    color: #fff;
-    transition: .7s;
-  }
-  button.button1 i{
-    margin-right:10px;
-    font-size:1.3em;
-  }
-  
-  button.button2{
-    padding-left: 50px;
-    position:relative;
-  }
-  
-  /*button.button2:before{
-    display:block;
-    width:40px;
-    height:40px;
-    position:absolute;
-    left:5px;
-    top:50%;
-    margin-top:-13px;
-    content: "\f16d";
-    font-family: 'FontAwesome';
-    font-size:1.3em;
-  }
+  padding:15px;
+  border-radius:20px;
+  font-size: 16pt;
+  border: 2px solid #fff;
+  background-color: transparent;
+  display:block;
+  margin:20px auto;
+  text-transform:uppercase;
+  cursor:pointer;
+  color: #fff;
+  transition: .7s;
+}
+button.button1 i{
+  margin-right:10px;
+  font-size:1.3em;
+}
+
+button.button2{
+  padding-left: 50px;
+  position:relative;
+}
+
